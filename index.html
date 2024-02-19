@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta  charset="utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title>Home Page of GOUR</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/059fc18be8.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <div id = "header">
+                <div class="container">
+                    <nav>
+                        <ul id="sidemenu">
+                            <li><a href="#header"> HOME </a> </li>
+                            <li><a href="#about"> ABOUT </a> </li>
+                            <li><a href="#projects"> PROJECT </a> </li>
+                            <li><a href="#contact"> CONTACT </a> </li>
+                            <i class="fas fa-times" onclick="closemenu()" ></i>
+                        </ul>
+                        <i class="fas fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                        <div class="header-text">
+                            <p> Software Engineering Student</p>
+                            <h1>Hi, I'm <span> Gour </span> <br> Gupal Talukder Shawon </h1>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <img src="Images/profile2.jpg">
+                            </div>
+                        </div>
+                </div>
+        </div>
+
+
+        <!-- -----ABOUT------- --> 
+        <div id="about">
+            <div class = "container" >
+                <div class = "row">
+                    <div class -="about-col-1">
+                        <img src="Images/user1.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title" > About Me</h1>
+                        <p>
+                                I'm a third-year Software Engineering student with a passion for Flutter app development.
+                                Optimistic and enthusiastic, I thrive on solving problems and embrace teamwork.
+                                Continuously learning through university courses, I also enjoy playing guitar, creating music,
+                                and occasionally indulging in football. With a commitment to innovation and collaboration,
+                                I'm dedicated to pushing boundaries and shaping a brighter future through technology.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                            <p class="tab-links" onclick="opentab('education')">Education </p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span> App Development </span> <br> Build Apps with FLUTTER </li>
+                                <li> <span> Web Development </span> <br> learing HTML, CSS and JavaScript </li>
+                                <li> <span> Problem Solving </span> <br> solving porblem across CF,UVA,LeetCOde,V.judge </li>
+                                <li> <span> Effective Communication </span> <br> </li>
+                                <li> <span> Prototype Building </span> <br>with Figma </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> <span> Participated BDapps Hackathon 2023 </span> <br> with a idea of Vehicle Management Solution </li>
+                                <li> <a href="https://leetcode.com/g_for_gour/"> <span><i class="fa-solid fa-link"></i>
+                                    Solving DSA </span></a> <br> using c++ language </li>
+                                <li> <a href="https://github.com/gfor-gour/Green-Mind-App">
+                                    <span> <i class="fa-solid fa-link"></i> 
+                                    App GreenMind </span></a>  <br> built it by FLUTTER</li>
+                                <li> <span> 2D Games </span> <br>buil two game for course project with JAVA and C++</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span> BSc in Software Engineering, IICT, SUST </span> <br> Session: 2020-21; CGPA -3.31 (upto 3rd semester)  </li>
+                                <li> <span> HSC: MC College, Sylhet </span> <br> 2018-2020; GPA-5.00 </li>
+                                <li> <span> SSC: Swarup Chandra Govt. High School, Jagannathpur </span> <br> 2016-2018; GPA-5.00 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- ----projects---- -->
+
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title"> My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3> Green Mind App</h3>
+                            <p> the purpose of this app is to make it easier for students to take appointment of a psychiatrist</p>
+                            <p> Built it Using FLUTTER and Dart, used Firebase for Authentication</p>
+                            <a href="https://github.com/gfor-gour/Green-Mind-App"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-22.png">
+                        <div class="layer">
+                            <h3> Fly and Live Forever</h3>
+                            <p>it was a JAVA lab project where I built a "Fly and Live Forever" named 2D game using libGDX and Java Language</p>
+                            <a href="https://github.com/gfor-gour/2-1-JavaGame-Project">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-33.png">
+                        <div class="layer">
+                            <h3>Run and Survive </h3>
+                            <p>during C++ lab,I Built this 2D game project using IGraphics Visual Studio 2013</p>
+                            <a href="https://github.com/gfor-gour/GameProject-1-2/tree/master">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/gfor-gour?tab=repositories" class="btn"> See More <br> In Git Repositories</a>
+            </div>
+        </div>
+
+        <!-- -----contact----- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> gourgupaltalukder@gmail.com </p>
+                        <p><i class="fa-solid fa-phone"></i> 01746244930 </p>
+                        <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=100012254503955">
+                                    <i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/in/gour-gupal-talukder-shawon-276894225/">
+                                    <i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/gfor-gour"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="Images/CV_gour0.3.pdf" download class="btn btn2">Download CV </a>
+                    </div>
+                    <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">
+                            Submit
+                        </button>
+                    </form>
+                    <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p> copyright  <i class="fa-solid fa-copyright"></i> Gour Gupal Talukder | All Rights Reserved.</p>
+            </div>
+        </div>
+
+    <script>
+        var  tablinks = document.getElementsByClassName("tab-links");
+        var  tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add( "active-tab") ;
+        }
+    </script>    
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyrkhtFx6wYFphtA1PJRds7JqFI23OTM3QsSXKx_xp_Z-f_bZluUMJpcsUaM4w65o06lg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Message Sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
