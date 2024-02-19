@@ -414,6 +414,9 @@ nav .fas{
     /* #header{
         background-image: url(Images/phoneback.png);
     } */
+    .box{
+        position: center;
+    }
     .header-text{
         margin-top: 10%;
         font-size: 16px;
